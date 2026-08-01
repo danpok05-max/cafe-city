@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CAFE CITY — Kavárna &amp; Cowork Smíchov</title>
+<meta name="description" content="CAFE CITY Smíchov — kavárna, bistro a cowork prostor v Praze 5. Šiklové 3385/6.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="noise"></div>
+
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">CC</span>
+      <span class="brand-name">CAFE CITY</span>
+    </a>
+    <nav class="nav" id="mainNav">
+      <a href="#about" data-cz="O nás" data-en="About">O nás</a>
+      <a href="#gallery" data-cz="Fotky" data-en="Gallery">Fotky</a>
+      <a href="#menu" data-cz="Nabídka" data-en="Menu">Nabídka</a>
+      <a href="#hours" data-cz="Otevírací doba" data-en="Hours">Otevírací doba</a>
+      <a href="#map" data-cz="Mapa" data-en="Map">Mapa</a>
+      <a class="nav-call" href="tel:+420727809188" data-cz="Zavolat +420 727 809 188" data-en="Call +420 727 809 188">Zavolat +420 727 809 188</a>
+    </nav>
+    <div class="header-actions">
+      <button class="lang-toggle" id="langToggle" type="button" aria-label="Switch language">
+        <span class="lang-opt active" data-lang="cz">CZ</span>
+        <span class="lang-sep">/</span>
+        <span class="lang-opt" data-lang="en">EN</span>
+      </button>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="btn btn-small" href="tel:+420727809188">
+        <span data-cz="Zavolat" data-en="Call us">Zavolat</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media">
+      <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=1800&q=80&auto=format&fit=crop" alt="Interiér kavárny CAFE CITY">
+      <div class="hero-gradient"></div>
+    </div>
+    <div class="wrap hero-content">
+      <p class="eyebrow" data-cz="Kavárna · Bistro · Cowork · Smíchov" data-en="Café · Bistro · Coworking · Smíchov">Kavárna · Bistro · Cowork · Smíchov</p>
+      <h1 class="hero-title">
+        <span data-cz="Dobré kafe," data-en="Good coffee,">Dobré kafe,</span><br>
+        <span class="italic" data-cz="klidné místo pro práci i pohodu." data-en="a calm place to work and unwind.">klidné místo pro práci i pohodu.</span>
+      </h1>
+      <p class="hero-lede" data-cz="Julius Meinl káva, domácí limonády, autorské mocktaily, čerstvé sendviče a teplá jídla — každý den v srdci nového Smíchova." data-en="Julius Meinl coffee, house-made lemonades, signature mocktails, fresh sandwiches and warm dishes — every day in the heart of the new Smíchov.">Julius Meinl káva, domácí limonády, autorské mocktaily, čerstvé sendviče a teplá jídla — každý den v srdci nového Smíchova.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#menu" data-cz="Zobrazit nabídku" data-en="View the menu">Zobrazit nabídku</a>
+        <a class="btn btn-ghost" href="#map" data-cz="Jak se k nám dostat" data-en="Get directions">Jak se k nám dostat</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">4.8</span>
+          <span class="stat-label" data-cz="★ hodnocení Google (115 recenzí)" data-en="★ Google rating (115 reviews)">★ hodnocení Google (115 recenzí)</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num" id="heroOpenStatus">—</span>
+          <span class="stat-label" data-cz="dnes" data-en="today">dnes</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">200–300 Kč</span>
+          <span class="stat-label" data-cz="průměrný účet" data-en="average check">průměrný účet</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="wrap about-grid">
+      <div class="about-text">
+        <p class="kicker" data-cz="O podniku" data-en="About us">O podniku</p>
+        <h2 data-cz="Bistro a cowork v jednom" data-en="Bistro and coworking, together">Bistro a cowork v jednom</h2>
+        <p data-cz="CAFE CITY najdete na ulici Šiklové v nové čtvrti Smíchov City, jen pár minut od Anděla. Pečeme a vaříme s láskou — od snídaní přes lehké obědy až po sladké dobroty k odpolední kávě. Denně připravujeme čerstvé sendviče a obložené chleby, ideální na svačinu nebo rychlý oběd s sebou do kanceláře." data-en="You'll find CAFE CITY on Šiklové street in the new Smíchov City district, just a few minutes from Anděl. We bake and cook with love — from breakfast to light lunches to sweet treats with your afternoon coffee. Every day we prepare fresh sandwiches and open-faced bread, perfect for a snack or a quick lunch to take to the office.">CAFE CITY najdete na ulici Šiklové v nové čtvrti Smíchov City, jen pár minut od Anděla. Pečeme a vaříme s láskou — od snídaní přes lehké obědy až po sladké dobroty k odpolední kávě. Denně připravujeme čerstvé sendviče a obložené chleby, ideální na svačinu nebo rychlý oběd s sebou do kanceláře.</p>
+        <p data-cz="Vedle kavárenské části máme i oddělenou klidnou coworkingovou místnost s WiFi a přístupem k tiskárně — ideální, když si potřebujete v klidu odpracovat pár hodin mimo domov." data-en="Alongside the café area we also have a separate, quiet coworking room with WiFi and printer access — ideal when you need to get a few hours of focused work done away from home.">Vedle kavárenské části máme i oddělenou klidnou coworkingovou místnost s WiFi a přístupem k tiskárně — ideální, když si potřebujete v klidu odpracovat pár hodin mimo domov.</p>
+        <ul class="tag-list">
+          <li data-cz="Venkovní posezení" data-en="Outdoor seating">Venkovní posezení</li>
+          <li data-cz="Nabídka pro vegany" data-en="Vegan options">Nabídka pro vegany</li>
+          <li data-cz="Stoličky pro děti" data-en="High chairs">Stoličky pro děti</li>
+          <li data-cz="WiFi &amp; tiskárna" data-en="WiFi &amp; printer">WiFi &amp; tiskárna</li>
+        </ul>
+      </div>
+      <div class="about-media">
+        <img src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?w=1000&q=80&auto=format&fit=crop" alt="Útulný interiér kavárny se zelení">
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="section gallery" id="gallery">
+    <div class="wrap">
+      <p class="kicker center" data-cz="Atmosféra" data-en="Atmosphere">Atmosféra</p>
+      <h2 class="center" data-cz="Nahlédněte dovnitř" data-en="Take a peek inside">Nahlédněte dovnitř</h2>
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=900&q=80&auto=format&fit=crop" alt="Šálek kávy na stole" class="g-item g-tall">
+        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=900&q=80&auto=format&fit=crop" alt="Latte art">
+        <img src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=900&q=80&auto=format&fit=crop" alt="Interiér kavárny">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=900&q=80&auto=format&fit=crop" alt="Kávová zrna a příprava kávy" class="g-tall">
+        <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?w=900&q=80&auto=format&fit=crop" alt="Prostor kavárny se sedačkami">
+        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=900&q=80&auto=format&fit=crop" alt="Čerstvý croissant a snídaně">
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="section menu" id="menu">
+    <div class="wrap">
+      <p class="kicker center" data-cz="Co nabízíme" data-en="What we serve">Co nabízíme</p>
+      <h2 class="center" data-cz="Nabídka" data-en="Menu">Nabídka</h2>
+      <p class="section-note center" data-cz="Orientační přehled nabídky sestavený z veřejně dostupných informací o podniku. Aktuální denní menu a ceny rádi upřesníme telefonicky." data-en="An indicative overview compiled from publicly available information about the café. We're happy to confirm the current daily menu and prices by phone.">Orientační přehled nabídky sestavený z veřejně dostupných informací o podniku. Aktuální denní menu a ceny rádi upřesníme telefonicky.</p>
+
+      <div class="menu-grid">
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?w=700&q=80&auto=format&fit=crop" alt="Snídaně">
+          </div>
+          <h3 data-cz="Snídaně" data-en="Breakfast">Snídaně</h3>
+          <p data-cz="Čerstvé pečivo, vejce, ovesné kaše a lehké ranní talíře — perfektní start dne." data-en="Fresh pastries, eggs, oat bowls and light morning plates — the perfect start to the day.">Čerstvé pečivo, vejce, ovesné kaše a lehké ranní talíře — perfektní start dne.</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?w=700&q=80&auto=format&fit=crop" alt="Sendviče a obložené chleby">
+          </div>
+          <h3 data-cz="Sendviče &amp; obložené chleby" data-en="Sandwiches &amp; open-faced bread">Sendviče &amp; obložené chleby</h3>
+          <p data-cz="Denně čerstvě připravované varianty na svačinu, oběd nebo s sebou do kanceláře." data-en="Freshly made varieties every day — a snack, lunch, or something to take to the office.">Denně čerstvě připravované varianty na svačinu, oběd nebo s sebou do kanceláře.</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=700&q=80&auto=format&fit=crop" alt="Teplá jídla">
+          </div>
+          <h3 data-cz="Teplá &amp; studená jídla" data-en="Warm &amp; cold dishes">Teplá &amp; studená jídla</h3>
+          <p data-cz="Domácí lehké obědy, které vaříme a pečeme s láskou — vhodné i pro vegany." data-en="Home-cooked light lunches, baked and cooked with love — vegan options available.">Domácí lehké obědy, které vaříme a pečeme s láskou — vhodné i pro vegany.</p>
+        </div>
+        <div class="menu-card">
+          <div class="menu-card-img">
+            <img src="https://images.unsplash.com/photo-1600271886742-f049cd451bba?w=700&q=80&auto=format&fit=crop" alt="Káva a nápoje">
+          </div>
+          <h3 data-cz="Káva &amp; nápoje" data-en="Coffee &amp; drinks">Káva &amp; nápoje</h3>
+          <p data-cz="Káva Julius Meinl, domácí limonády, autorské mocktaily a pivo Bernard." data-en="Julius Meinl coffee, house-made lemonades, signature mocktails and Bernard beer.">Káva Julius Meinl, domácí limonády, autorské mocktaily a pivo Bernard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOURS -->
+  <section class="section hours" id="hours">
+    <div class="wrap hours-grid">
+      <div>
+        <p class="kicker" data-cz="Kdy nás najdete" data-en="When to find us">Kdy nás najdete</p>
+        <h2 data-cz="Otevírací doba" data-en="Opening hours">Otevírací doba</h2>
+        <p class="section-note" data-cz="Kuchyně zavírá dříve než kavárna — na poslední teplé jídlo tedy nezapomeňte přijít včas." data-en="The kitchen closes earlier than the café — so make sure to come in time for a warm meal.">Kuchyně zavírá dříve než kavárna — na poslední teplé jídlo tedy nezapomeňte přijít včas.</p>
+
+        <div class="hours-tables">
+          <div class="hours-table-card">
+            <h3 data-cz="Kavárna" data-en="Café">Kavárna</h3>
+            <table class="hours-table" id="cafeHours">
+              <tr data-day="1"><td data-cz="Pondělí" data-en="Monday">Pondělí</td><td>8:00–19:00</td></tr>
+              <tr data-day="2"><td data-cz="Úterý" data-en="Tuesday">Úterý</td><td>8:00–19:00</td></tr>
+              <tr data-day="3"><td data-cz="Středa" data-en="Wednesday">Středa</td><td>8:00–19:00</td></tr>
+              <tr data-day="4"><td data-cz="Čtvrtek" data-en="Thursday">Čtvrtek</td><td>8:00–19:00</td></tr>
+              <tr data-day="5"><td data-cz="Pátek" data-en="Friday">Pátek</td><td>8:00–19:00</td></tr>
+              <tr data-day="6"><td data-cz="Sobota" data-en="Saturday">Sobota</td><td>8:30–15:00</td></tr>
+              <tr data-day="0"><td data-cz="Neděle" data-en="Sunday">Neděle</td><td class="closed" data-cz="Zavřeno" data-en="Closed">Zavřeno</td></tr>
+            </table>
+          </div>
+          <div class="hours-table-card">
+            <h3 data-cz="Kuchyně" data-en="Kitchen">Kuchyně</h3>
+            <table class="hours-table">
+              <tr><td data-cz="Pondělí" data-en="Monday">Pondělí</td><td>8:00–14:00</td></tr>
+              <tr><td data-cz="Úterý" data-en="Tuesday">Úterý</td><td>8:00–14:00</td></tr>
+              <tr><td data-cz="Středa" data-en="Wednesday">Středa</td><td>8:00–14:00</td></tr>
+              <tr><td data-cz="Čtvrtek" data-en="Thursday">Čtvrtek</td><td>8:00–14:00</td></tr>
+              <tr><td data-cz="Pátek" data-en="Friday">Pátek</td><td>8:00–14:00</td></tr>
+              <tr><td data-cz="Sobota" data-en="Saturday">Sobota</td><td>8:30–14:00</td></tr>
+              <tr><td data-cz="Neděle" data-en="Sunday">Neděle</td><td class="closed" data-cz="Zavřeno" data-en="Closed">Zavřeno</td></tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="hours-media">
+        <img src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=900&q=80&auto=format&fit=crop" alt="Klidný kout kavárny">
+        <div class="contact-card">
+          <p class="contact-line">
+            <strong data-cz="Adresa" data-en="Address">Adresa</strong><br>
+            Šiklové 3385/6, 150 00 Praha 5-Smíchov
+          </p>
+          <p class="contact-line">
+            <strong data-cz="Telefon" data-en="Phone">Telefon</strong><br>
+            <a href="tel:+420727809188">+420 727 809 188</a>
+          </p>
+          <p class="contact-line">
+            <strong>Instagram</strong><br>
+            <a href="https://www.instagram.com/cafecity_smichov" target="_blank" rel="noopener">@cafecity_smichov</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAP -->
+  <section class="section map-section" id="map">
+    <div class="wrap">
+      <p class="kicker center" data-cz="Najdete nás zde" data-en="Find us here">Najdete nás zde</p>
+      <h2 class="center" data-cz="Jak se k nám dostat" data-en="How to get here">Jak se k nám dostat</h2>
+      <p class="section-note center" data-cz="Šiklové 3385/6, Praha 5-Smíchov — pár minut chůze od stanice metra Anděl a tramvajové zastávky Na Knížecí." data-en="Šiklové 3385/6, Prague 5-Smíchov — a few minutes' walk from Anděl metro station and the Na Knížecí tram stop.">Šiklové 3385/6, Praha 5-Smíchov — pár minut chůze od stanice metra Anděl a tramvajové zastávky Na Knížecí.</p>
+      <div class="map-frame">
+        <iframe
+          title="Mapa CAFE CITY"
+          src="https://www.google.com/maps/embed?origin=mfe&pb=!1m2!2m1!1sCafe+City,+%C5%A0iklov%C3%A9+3385/6,+150+00+Praha+5-Sm%C3%ADchov"
+          width="100%" height="460" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+      <div class="map-actions">
+        <a class="btn btn-primary" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=%C5%A0iklov%C3%A9+3385%2F6%2C+150+00+Praha+5-Sm%C3%ADchov" data-cz="Naplánovat trasu v Google Mapách" data-en="Get directions on Google Maps">Naplánovat trasu v Google Mapách</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div>
+      <span class="brand-mark small">CC</span>
+      <span class="brand-name">CAFE CITY</span>
+    </div>
+    <p data-cz="Šiklové 3385/6, 150 00 Praha 5-Smíchov · +420 727 809 188" data-en="Šiklové 3385/6, 150 00 Prague 5-Smíchov · +420 727 809 188">Šiklové 3385/6, 150 00 Praha 5-Smíchov · +420 727 809 188</p>
+    <p class="footer-note" data-cz="Fanouškovská ukázková stránka — fotografie ilustrační (Unsplash)." data-en="Fan-made sample site — photos for illustration only (Unsplash).">Fanouškovská ukázková stránka — fotografie ilustrační (Unsplash).</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
